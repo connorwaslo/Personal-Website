@@ -1,0 +1,24 @@
+html, body, #page-one, #page-two, #page-three, #page-four {
+    height: 100%;
+}
+
+#page-one, #page-two, #page-three, #page-four {
+    padding-top: 2em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    padding-top: 0.5em;
+}
+
+h2 {
+    font-size: 3em;
+    padding-top: 0.4em;
+    text-align: center;
+}
+
+#page-one {background-color:#fff;}
+#page-two {background-color:#ccc;}
+#page-three {background-color:#aaa;}
+#page-four {background-color:#888;}
