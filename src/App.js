@@ -1,26 +1,30 @@
 import React, { Component } from 'react';
 import { SkillsScreen } from "./components/SkillsScreen"
-import './App.css';
+import {TitleScreen} from "./components/TitleScreen";
 import {AboutScreen} from "./components/AboutScreen";
+import {PortfolioScreen} from "./components/PortfolioScreen";
+import './App.css';
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-          <div id="page-one">
-              <AboutScreen/>
+      return (
+          <div className="App">
+              <div id="page-one">
+                  <TitleScreen/>
+              </div>
+              <div id="blueBackgroundGradient">
+                  <div id="page-two">
+                      <AboutScreen/>
+                  </div>
+                  <div id="page-three">
+                      <SkillsScreen/>
+                  </div>
+                  <div id="page-four">
+                      <PortfolioScreen/>
+                  </div>
+              </div>
           </div>
-          <div id="page-two">
-              <SkillsScreen/>
-          </div>
-          <div id="page-three">
-              <h2>Page Three</h2>
-          </div>
-          <div id="page-four">
-              <h2>Page Four</h2>
-          </div>
-      </div>
-    );
+      );
   }
 }
 

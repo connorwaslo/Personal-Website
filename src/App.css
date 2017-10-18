@@ -1,5 +1,22 @@
+h1 {
+    text-align: left;
+    font-size: 5vh;
+    color: white;
+}
+
+#blueBackgroundGradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#16255e+19,2989d8+73,207cca+100,1a4275+100,207cca+100 */
+    background: #16255e; /* Old browsers */
+    background: -moz-linear-gradient(top, #16255e 19%, #2989d8 73%, #207cca 100%, #1a4275 100%, #207cca 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #16255e 19%,#2989d8 73%,#207cca 100%,#1a4275 100%,#207cca 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #16255e 19%,#2989d8 73%,#207cca 100%,#1a4275 100%,#207cca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16255e', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
+}
+
+/*
 html, body, #page-one, #page-two, #page-three, #page-four {
     height: 100%;
+    background-color: whitesmoke;
 }
 
 #page-one, #page-two, #page-three, #page-four {
@@ -10,15 +27,16 @@ html, body, #page-one, #page-two, #page-three, #page-four {
 h1 {
     font-size: 4em;
     padding-top: 0.5em;
+    margin: 0;
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 1.5em;
     padding-top: 0.4em;
     text-align: center;
 }
 
-#page-one {background-color:#fff;}
-#page-two {background-color:#ccc;}
-#page-three {background-color:#aaa;}
-#page-four {background-color:#888;}
+#page-one { background-color: whitesmoke; }
+#page-two { background-color: whitesmoke; }
+#page-three { background-color: whitesmoke; }
+#page-four { background-color: whitesmoke; }*/

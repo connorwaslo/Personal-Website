@@ -1,0 +1,74 @@
+#titleContainer {
+    margin-top: 0;
+    background-image: url('../res/backgrounds/phoenix_panorama_cropped_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+#titleContainer h1 {
+    text-align: left;
+    font-size: 7vh;
+    margin: 8vh auto auto 8vw;
+}
+
+#titleContainer h3 {
+    text-align: left;
+    font-size: 3vh;
+    color: white;
+    margin-left: 10vw;
+}
+
+@media (max-width: 750px) {
+    #aboutButtons {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 751px) {
+    #aboutButtons {
+        display: flex;
+        flex-direction: row;
+        height: 45vh;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+ul #aboutButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    flex: 1 0 auto;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+
+#basisSenior {
+    flex: 1;
+    background-color: transparent;
+}
+
+#gocodeFounder {
+    flex: 1;
+    background-color: transparent;
+}
+
+#tgfBoard {
+    flex: 1;
+    background-color: transparent;
+}
