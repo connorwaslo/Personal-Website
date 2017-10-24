@@ -99,6 +99,10 @@ img {
     bottom: 0;
 }
 
+p a {
+    color: #E57125;
+    text-decoration: underline;
+}
 
 .skills {
     display: flex;

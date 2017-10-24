@@ -13,7 +13,7 @@ export class SkillsScreen extends React.Component {
 
                 <ul className="skills">
                     <div id="javaContainer">
-                        <li id="java"><a href="http://www.basised.com/phoenix/">
+                        <li id="java">
                             <h2 className="skillTitle">Java</h2>
                             <img id="javaLogo" src={require('../res/skills/java_white.svg')} alt="java"/>
                             <p className="whiteFont" id="javaText">
@@ -21,12 +21,12 @@ export class SkillsScreen extends React.Component {
                                 in the sixth grade.
                                 <br/>
                                 <br/>
-                                Check out my portfolio for sample projects.
+                                Check out my <a href="http://github.com/connorwaslo">portfolio</a> for sample projects.
                             </p>
-                        </a></li>
+                        </li>
                     </div>
                     <div id="javascriptContainer">
-                        <li id="javascript"><a href="http://gocode.courses">
+                        <li id="javascript">
                             <h2 className="skillTitle">Javascript</h2>
                             <img id="javascriptLogo" src={require('../res/skills/javascript.svg')} alt="javascript"/>
                             <p className="whiteFont" id="javascriptText">
@@ -35,10 +35,10 @@ export class SkillsScreen extends React.Component {
                                 <br/>
                                 Javascript is my language of choice for creating a desirable user experience.
                             </p>
-                        </a></li>
+                        </li>
                     </div>
                     <div id="reactjsContainer">
-                        <li id="reactjs"><a href="http://thegeniusfactory.org">
+                        <li id="reactjs">
                             <h2 className="skillTitle">React</h2>
                             <img src={require('../res/skills/react.svg')} alt="react"/>
                             <p className="whiteFont" id="reactjsText">
@@ -47,7 +47,7 @@ export class SkillsScreen extends React.Component {
                                 <br/>
                                 I made this website with it.
                             </p>
-                        </a></li>
+                        </li>
                     </div>
                 </ul>
                 <ul className="skills">
@@ -59,7 +59,7 @@ export class SkillsScreen extends React.Component {
                                 Marketing is my primary job at The Genius Factory.
                                 <br/>
                                 <br/>
-                                I'll take you from advertisement to sale.
+                                I make Facebook ads, email funnels, and sales calls.
                             </p>
                         </li>
                     </div>
