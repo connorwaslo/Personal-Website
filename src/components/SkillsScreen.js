@@ -45,7 +45,9 @@ export class SkillsScreen extends React.Component {
                                 As a fan of efficiency, Facebook's React is my most used tool.
                                 <br/>
                                 <br/>
-                                I made this website with it.
+                                I <a href="https://github.com/connorwaslo/Personal-Website/tree/master/src">
+                                    made this website
+                                </a> with it.
                             </p>
                         </li>
                     </div>

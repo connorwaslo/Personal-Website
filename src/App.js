@@ -19,9 +19,9 @@ class App extends Component {
                   <div id="page-three">
                       <SkillsScreen/>
                   </div>
-                  {/*<div id="page-four">
+                  <div id="page-four">
                       <PortfolioScreen/>
-                  </div>*/}
+                  </div>
               </div>
           </div>
       );

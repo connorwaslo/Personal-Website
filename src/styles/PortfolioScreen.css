@@ -1,9 +1,21 @@
-#portfolioContainer h1 {
-    text-align: center;
-    font-size: 4vw;
-}
-
-#nhdContainer h2 {
+#portfolioContainer {
     text-align: center;
     color: white;
 }
+
+#portfolioContainer h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+#mandarinContainer {
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+/*
+.theaterMode {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+}*/
